@@ -4,7 +4,7 @@
 
 #header(
   name: "Brant Beverly",
-  phone: "801-332-0286",
+  phone: "***-***-****",
   email: "beverlybr394@gmail.com",
   linkedin: "linkedin.com/in/brantbeverly394",
   site: "brantbev.github.io",

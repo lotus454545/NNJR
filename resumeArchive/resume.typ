@@ -16,20 +16,10 @@
   degree: "Bachelor of Science in Computer Science",
   location: "Salt Lake City, UT",
   date: "Aug. 2021 - May 2025",
-  grade: "3.760"
+  grade: "3.742"
 )
 
 #resume_heading[Experience]
-#exp_item(
-  role: "Artificial Intelligence & Computer Security CS Teaching Assistant",
-  name: "University of Utah",
-  location: "Salt Lake City",
-  date: "Aug. 2024 - Ongoing",
-  [Understood and taught high level computer science courses on artificial intelligence and computer security],
-  [Effectively conveyed difficult concepts and cleared misunderstandings among a variety of students],
-  [Maintained consistent and effective communication with the professor and students],
-  [Adapted to students and the class as a whole to meet each's changing needs and better help students]
-)
 #exp_item(
   role: "Software Developer Intern",
   name: "Beverly Scientific",
@@ -41,18 +31,17 @@
   [Worked with unique hardware and the design changes necessitated by the hardware],
   [Learned and worked within new architectural styles, subsystems, and technology including WPF, PLC interaction, and MVVM]
 )
+#exp_item(
+  role: "Private Tutor",
+  name: "Self Employed",
+  location: "Ogden, UT",
+  date: "Aug. 2021 - Dec. 2021",
+  [Taught and assisted students in college-level math],
+  [Assessed feedback to adapt my teaching style and understand any issues or misunderstandings],
+  [Communicated effectively to ensure they understood the topic at hand, as well as quickly answer questions]
+)
 
 #resume_heading("Projects")
-#project_item(
-  name: "Just The Boss Fights",
-  skills: "Unity, Perforce, Wwise",
-  date: "Aug. 2024 - Ongoing",
-  [Worked as one of the main engineers and created the core systems and frameworks that the game is built off of],
-  [Utilized agile software development techniques to coordinate],
-  [Learned and adapted quickly within a new system and to working with a large-scale team of 30+ people],
-  [Used common design patterns to create an easy to work with and expansible system],
-  [Created a library of functions that were intuitive to work with and utilize effectively]
-)
 #project_item(
   name: "Learning Management System Database",
   skills: "MySQL, ER Diagrams, HTML, CSS",
@@ -71,7 +60,7 @@
   [Managed and worked within a rapidly changing codebase worked on by multiple people at once],
   [Implement physics in conjunction with the display to allow for unique effects and visuals]
 )
-/*#project_item(
+#project_item(
   name: "A Tail of Two Pawtners",
   skills: "Unreal, Perforce",
   date: "Jan. 2024 - Apr. 2024",
@@ -80,12 +69,12 @@
   [Learned and adapted quickly within a new system and development style],
   [Used common design patterns to create an easy to work with and expandable system],
   [Created a library of functions that were intuitive to work with and utilize effectively]
-)*/
+)
 
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "Java, Python,C, C++, C#, SQL (MySQL), JavaScript, HTML/CSS, R, MIPS, GLSL"
+  skills: "Java, Python, C++, C#, SQL (MySQL), JavaScript, HTML/CSS, R, MIPS, GLSL"
 )
 #skill_item(
   category: "Developer Tools",
@@ -93,5 +82,5 @@
 )
 #skill_item(
   category: "Relevant Knowledge",
-  skills: "Q-Learning, Computer Graphics, Defensive Cybersecurity, Algorithms, Agile"
+  skills: "Q-Learning, Computer Graphics, Defensive Cybersecurity, Algorithms"
 )

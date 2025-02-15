@@ -61,7 +61,7 @@
   [Translated our design into MySQL while reducing extraneous data storage and enforcing constraints],
   [Integrated the database to a website, involving consistenlty both querying the database and inserting data]
 )
-#project_item(
+/*#project_item(
   name: "Conway's Game of Life",
   skills: "C++, Qt, Git, Docker",
   date: "Oct. 2022 - Dec. 2022",
@@ -70,8 +70,8 @@
   [Integrated external libraries for supplementary features],
   [Managed and worked within a rapidly changing codebase worked on by multiple people at once],
   [Implement physics in conjunction with the display to allow for unique effects and visuals]
-)
-/*#project_item(
+)*/
+#project_item(
   name: "A Tail of Two Pawtners",
   skills: "Unreal, Perforce",
   date: "Jan. 2024 - Apr. 2024",
@@ -80,7 +80,7 @@
   [Learned and adapted quickly within a new system and development style],
   [Used common design patterns to create an easy to work with and expandable system],
   [Created a library of functions that were intuitive to work with and utilize effectively]
-)*/
+)
 
 #resume_heading("Technical Skills")
 #skill_item(

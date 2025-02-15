@@ -55,14 +55,17 @@
   name: "Sample University", 
   degree: "B.S in Bullshit", 
   location: "Foo, BA", 
-  date: "Aug. 1600 - May 1750"
+  date: "Aug. 1600 - May 1750",
+  grade: "3"
 ) = {
   set block(above: 0.7em, below: 1em)
   pad(left: 1em, right: 0.5em, grid(
     columns: (3fr, 1fr),
     align(left)[
       *#name* \
-      _#degree _
+      _#degree _\
+      #str("GPA: " + grade)
+
     ],
     align(right)[
       #location \
@@ -70,6 +73,7 @@
     ]
   ))
 }
+
 
 #let exp_item(
   name: "Sample Workplace",
